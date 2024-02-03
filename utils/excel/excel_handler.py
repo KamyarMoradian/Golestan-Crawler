@@ -7,7 +7,7 @@ from utils.excel import excel_cleaner
 
 
 class ExcelHandler:
-    DIR = "../data/"
+    DIR = "./data/"
 
     def __init__(self):
         self.create_path()
