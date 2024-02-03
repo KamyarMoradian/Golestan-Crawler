@@ -22,7 +22,7 @@ class SeleniumCrawler:
             self.options.add_argument('--no-sandbox')
             self.options.add_experimental_option("detach", True)
         driver_path = ChromeDriverManager(
-            driver_version='121').install()  # Change if you have a different version of Chrome
+            driver_version=config.DRIVER_VERSION).install()
         service = Service(driver_path)
         self.driver = webdriver.Chrome(service=service, options=self.options)
         self.image_handler = ImageHandler(
