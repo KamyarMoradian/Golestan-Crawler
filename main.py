@@ -29,7 +29,7 @@ if __name__ == '__main__':
     # # Uncomment the following line to get the courses of the past 10 semesters
     # get_past_10_semesters(display=False)
     # # Uncomment the following line to get the courses of a specific semester
-    get_one_semester(config.SEMESTER, display=True)
+    # get_one_semester(config.SEMESTER, display=True)
 
     toc = time.time()
     print(toc - tic)
