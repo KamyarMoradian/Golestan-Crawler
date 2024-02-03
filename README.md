@@ -36,11 +36,14 @@ The only requirement is to set the semesters you want to retrieve.
 2. Set the semesters you want to retrieve in the `main.py` file.
 
 
-3. Run the `main.py` file.
+3. Uncomment commented lines in `main.py` based on the guide given above each one of them.
+
+
+4. Run the `main.py` file.
    ```bash
    python main.py
     ```
-4. The retrieved data will be saved in the `data` directory.
+5. The retrieved data will be saved in the `data` directory.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
